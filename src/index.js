@@ -8,7 +8,7 @@ import JobsList from "./components/jobslist";
 
 const userLocale = navigator.language || navigator.userLanguage; //Detectar el lenguaje del navegador
 const messages = userLocale.startsWith('es') ? localeEsMessages : localeEnMEssages //Defnir que mensajes utilizar
-const locale = userLocale.split('-')[0];
+const locale = userLocale.split('-')[0]
 
 
 ReactDOM.render(
